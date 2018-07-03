@@ -1,14 +1,19 @@
 from __future__ import (absolute_import, division, print_function,
                         unicode_literals)
 
+import random
 import datetime  # For datetime objects
 import os.path  # To manage paths
 import sys  # To find out the script name (in argv[0])
 import backtrader as bt
+from deap import base
+from deap import creator
+from deap import tools
 
 
 class MainStrategy(bt.Strategy):
     params = (
+        ('datafeed', 'quandl'),
         ('printlog', False),
         ('detail', 4),
         ('chromosome', []),
@@ -28,14 +33,12 @@ class MainStrategy(bt.Strategy):
 
 
 if __name__ == '__main__':
-    params=(
-        ('datafeed', 'quandl')
-    )
+
     cerebro = bt.Cerebro()
     cerebro.addstrategy(MainStrategy)
 
-
-    data = bt.feeds.Quandl(
+    if MainStrategy.params.datafeed=='quandl':
+        data = bt.feeds.Quandl(
         dataname='AAPL',
         buffered=True
     )
