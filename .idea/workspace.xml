@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9563dee5-590e-442a-96f5-37883f49519c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/First_DEAP.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,11 +35,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="First_DEAP.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="First_DEAP.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/First_DEAP.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="16" column="70" lean-forward="true" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
+            <state relative-caret-position="170">
+              <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mainPlusEvolution.py" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/OneDrive/MoneyMakers/Prototyp2/mainPlusEvolution.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-442">
+              <folding>
+                <element signature="e#0#108#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,14 +84,15 @@
         <option value="$PROJECT_DIR$/../Prototyp/genetic_trader_v11.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$USER_HOME$/OneDrive/MoneyMakers/Prototyp2/deap example 1/First DEAP test.py" />
+        <option value="$USER_HOME$/OneDrive/MoneyMakers/Prototyp2/mainPlusEvolution.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="188" />
-    <option name="y" value="68" />
+    <option name="x" value="187" />
+    <option name="y" value="67" />
     <option name="width" value="1600" />
-    <option name="height" value="1103" />
+    <option name="height" value="1104" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -180,17 +189,24 @@
       <option name="presentableId" value="Default" />
       <updated>1529928697436</updated>
     </task>
+    <task id="LOCAL-00001" summary="deap">
+      <created>1530628932583</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1530628932583</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1829427" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1829427" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18068965" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.18068965" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32551724" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -239,6 +255,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="deap" />
+    <option name="LAST_COMMIT_MESSAGE" value="deap" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -342,8 +360,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/First_DEAP.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="70" lean-forward="true" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
+        <state relative-caret-position="170">
+          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/OneDrive/MoneyMakers/Prototyp2/mainPlusEvolution.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-442">
+          <folding>
+            <element signature="e#0#108#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
